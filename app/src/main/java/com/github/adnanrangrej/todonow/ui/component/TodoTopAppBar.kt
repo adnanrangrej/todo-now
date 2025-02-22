@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import com.github.adnanrangrej.todonow.R
 import com.github.adnanrangrej.todonow.ui.theme.TodoNowTheme
 
@@ -40,7 +40,7 @@ fun TodoTopAppBar(
     )
 }
 
-@Preview
+@PreviewScreenSizes
 @Composable
 private fun TodoTopAppBarPreview() {
     TodoNowTheme {

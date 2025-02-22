@@ -16,7 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import androidx.compose.ui.unit.dp
 import com.github.adnanrangrej.todonow.R
 import com.github.adnanrangrej.todonow.ui.theme.TodoNowTheme
@@ -77,7 +77,7 @@ fun CustomSearchBar(
 }
 
 
-@Preview
+@PreviewScreenSizes
 @Composable
 private fun TodoSearchBarPreview() {
     TodoNowTheme {

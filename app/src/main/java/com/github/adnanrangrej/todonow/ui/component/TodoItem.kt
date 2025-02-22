@@ -28,7 +28,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.github.adnanrangrej.todonow.R
@@ -107,7 +107,7 @@ fun CustomCheckBox(
 
 }
 
-@Preview
+@PreviewScreenSizes
 @Composable
 private fun TodoItemPreview() {
     TodoNowTheme {
