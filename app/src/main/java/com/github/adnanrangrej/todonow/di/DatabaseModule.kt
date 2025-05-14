@@ -22,7 +22,7 @@ object DatabaseModule {
     fun providesDatabase(@ApplicationContext context: Context): AppDatabase {
         return Room
             .databaseBuilder(context,AppDatabase::class.java,"todo_database")
-            .fallbackToDestructiveMigration()
+            .fallbackToDestructiveMigration(false)
             .build()
     }
 
